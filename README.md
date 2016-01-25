@@ -1,1 +1,2 @@
 # kafka-test
+This is a small Java program created for a the Seminar "Hot Topics in Information System Engineering" at TU Berlin during the winter semester 2015/16. It is designed to put load on a Kafka cluster. The load consists of a constant stream of read and write requests, with a configurable number of producers and consumers. The program records the total amount of data read and written and outputs the resulting throughput rates.
