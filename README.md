@@ -1,5 +1,5 @@
-# Kafka Test
-This is a small Java program created for a the seminar "Hot Topics in Information System Engineering" at TU Berlin during the winter semester 2015/16. It is designed to put load on an Apache Kafka cluster. The load consists of a constant stream of read and write requests The program records the total amount of data read and written and outputs the resulting throughput rates.
+# A performance testing utility for Apache Kafka
+This is a small Java program created for a the seminar "Hot Topics in Information System Engineering" at TU Berlin during the winter semester 2015/16. It is designed to put load on an Apache Kafka cluster. The load consists of a constant stream of read and write requests. The program records the total amount of data read and written and outputs the resulting throughput rates.
 
 ## Using the application
 The code to start the application is in the ThroughputTest class. Run
